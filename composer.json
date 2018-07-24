@@ -1,0 +1,25 @@
+{
+	"name" : "aidphp/emitter-interop",
+	"type" : "library",
+	"description" : "Response emitter interoperability",
+	"license" : "MIT",
+	"keywords" : [
+		"emitter",
+		"response",
+		"emitter-interface",
+		"psr-7"
+	],
+	"authors" : [{
+			"name" : "Maxime Bourmaut"
+		}
+	],
+	"require" : {
+		"php" : ">=7.0.0",
+		"psr/http-message" : "^1.0"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Interop\\Emitter\\" : "src/"
+		}
+	}
+}
