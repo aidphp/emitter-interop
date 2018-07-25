@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Interop\Emitter;
+namespace Interop\Http;
 
 use Psr\Http\Message\ResponseInterface;
 

@@ -1,9 +1,12 @@
 {
-	"name" : "aidphp/emitter-interop",
+	"name" : "aidphp/http-interop",
 	"type" : "library",
-	"description" : "Response emitter interoperability",
+	"description" : "Http interoperability",
 	"license" : "MIT",
 	"keywords" : [
+		"http",
+		"request",
+		"factory",
 		"emitter",
 		"response",
 		"emitter-interface",
@@ -19,7 +22,7 @@
 	},
 	"autoload" : {
 		"psr-4" : {
-			"Interop\\Emitter\\" : "src/"
+			"Interop\\Http\\" : "src/"
 		}
 	}
 }
